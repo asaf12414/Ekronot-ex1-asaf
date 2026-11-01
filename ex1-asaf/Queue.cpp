@@ -89,7 +89,7 @@ bool isEmpty(Queue* s)
 	{
 		return true;
 	}
-	return false
+	return false;
 }
 /*
 this function checks if the queue is full or null
