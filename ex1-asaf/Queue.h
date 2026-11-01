@@ -5,6 +5,11 @@
 /* a queue contains positive integer values. */
 typedef struct Queue
 {
+    int* arr;        // dynamic array
+    unsigned int maxCapacity; // maximum number of elements in the queue
+    int front;       // first index of the queue
+    int rear;        // last index of the queue
+    unsigned int count;       // number of elements in the queue
 } Queue;
 
 void initQueue(Queue* q, unsigned int size);
