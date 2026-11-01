@@ -139,11 +139,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ex1-asaf\Ex1Part1Test_local.cpp" />
     <ClCompile Include="ex1-asaf\Ex1Part2Test_local.cpp" />
     <ClCompile Include="ex1-asaf\LinkedList.cpp" />
     <ClCompile Include="ex1-asaf\Queue.cpp" />
-    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="ex1-asaf\Stack.cpp" />
+    <ClCompile Include="ex1-asaf\Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ex1-asaf\LinkedList.h" />

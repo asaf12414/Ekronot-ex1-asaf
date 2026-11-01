@@ -11,4 +11,6 @@ typedef struct IntNode
 void addToList(IntNode** head, unsigned int newValue);
 
 unsigned int removeFromList(IntNode** head);
+
+void freeList(IntNode* head);
 #endif
